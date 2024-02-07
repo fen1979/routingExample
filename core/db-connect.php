@@ -1,5 +1,6 @@
 <?php
 // marinaDB connection using RED BEAN PHP or ANY not critical!!!
+// RBDB version 5.7.3 stable
 require "rb-mysql.php";
 R::setup('mysql:host=localhost;dbname=your-db-name', 'your-name', 'your-password');
 
