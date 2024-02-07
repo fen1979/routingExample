@@ -24,7 +24,7 @@ indicating the values
 
 on your page :
  - press tis button you go to about page
-<a href="/about">About Us</a>
+  < a href="/about">About Us</a >
 
  - press this button about page hase be open in new tab 
 <a href="/about" target="_blank">About Us</a>
