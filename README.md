@@ -27,23 +27,24 @@ on your page :
   < a href="/about">About Us</a >
 
  - press this button about page hase be open in new tab 
-<a href="/about" target="_blank">About Us</a>
+< a href="/about" target="_blank">About Us</a >
 
 Get request in file .php
+
 if(isset($_GET["some-name"])){
 // do some actions
 }
 
  - for request from form the action need to be empty if your request going
  - to self page scripts
-<form action="" method="get">
+< form action="" method="get">
 // some inputs...
-</form>
+< /form >
 
  - else if your request go to another page 
-<form action="/about" method="get">
+< form action="/about" method="get">
 // some inputs...
-</form>
+< /form >
 
 the same actions fo form when method equal POST 
 $_POST[] with some parameters:
@@ -53,10 +54,10 @@ leave the ACTION="" attribute in the form need to be empty!!
 When sending a form to another page with a transition to this page, 
 enter the route for this page in the action attribute of the form
 
-<form action="/" method="post">
+< form action="/" method="post">
 // here we goin to Login.php
 // some inputs...
-</form>
+< /form >
 
  - receiving data from a post request in a login.php script file:
  
