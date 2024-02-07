@@ -23,7 +23,7 @@ class Routing
         $path = $this->pages[$url];
 
         if (empty($path)) {
-            require 'public/404.php';
+            require 'views/404.php';
             die();
         }
 
@@ -35,7 +35,7 @@ class Routing
         if (file_exists($fileDir)) {
             require $fileDir;
         } else {
-            require 'public/404.php';
+            require 'views/404.php';
             die();
         }
     }
