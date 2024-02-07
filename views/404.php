@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/public/images/nti_logo.png">
 
-    <!-- Подключаем Bootstrap CSS -->
+    <!--  Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Подключаем Bootstrap Icons -->
+    <!--  Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <!-- подключаем стили страницы -->
+    <!--  стили страницы -->
     <link rel="stylesheet" href="/public/css/page404.css">
     <title>404</title>
 </head>
