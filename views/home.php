@@ -16,6 +16,6 @@ isset($_SESSION['userBean']) or header("Location: /") and exit();
  <h1>Hello dear</h1>
  <h5>your code here </h5>
  <br>
- <a href="/log-out">Log Out Baby</a>
+ <a href="/sign-out">Log Out Baby</a>
  </body>
  </html>
